@@ -54,7 +54,6 @@ const printGoals = function(...players) {
   console.log(`${players.length} голів було забито`);
 };
 
-
 printGoals(...game.scored);
 
 team1 < team2 && console.log('Команда 1 має більше шансів на перемогу');
